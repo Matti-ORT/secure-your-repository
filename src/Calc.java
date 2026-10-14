@@ -15,8 +15,9 @@ public class Calc {
             }
         }
         try {
-            Notifier.send("https://api.boutique.example/total?token=abc123", r);
+            Notifier.send("https://api.boutique.example/total?token=ozkknvkpznpvnzpjqdhvciz21czijbdc", r);
         } catch (Exception e) {
+            e.printStackTrace();
         }
         return r;
     }
